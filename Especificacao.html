@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt-BR">
+
 <head>
   <title>Especificações</title>
   <meta charset="utf-8">
@@ -7,69 +8,93 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
-<body class="container bg-dark text-white">
-<!--MENU-->
-<nav class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+
+<body class="bg-dark text-white">
+  <!--MENU-->
+  <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><i class="bi bi-google"></i>oogle Glass
+      <a class=nav-link disabled>
+        <h1><i class="bi bi-google"></i>oogle Glass</h1>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Untitled-1.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Especificacao.html">Especificações</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Fotos e Multimidia
-            </a>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page"
+              href="Especificacao.html">Especificações</a></li>
+          <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Fotos e Multimidia</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" aria-current="page" href="fotos.html">Fotos</a></li>
               <li><a class="dropdown-item" aria-current="page" href="multimidia.html">Multimidia</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="faleconosco.html">Fale Conosco</a>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="faleconosco.html">Fale Conosco</a>
           </li>
         </ul>
-    </div>
+      </div>
   </nav>
-  <br><br><br>
-  <div class="container text-center text-info">
-  <hr><p><h1>Raio-X no Google Glass</h1></p><hr>
-</div>
-<div class="container text-center">
-  <img src="_imagens/glass-esquema-marcado.jpg" usemap="#mapa">
-  <map name="mapa">
-    <area shape="rect" coords="179,202,270,260" href="01.html" target="janela">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#meuModal">
-    </button>
-    <area shape="circle" coords="158,243,12" href="02.html" target="janela">
-    <area shape="poly" coords="28,143,83,216,84,249,27,169" href="03.html" target="janela">
-    <area shape="circle" coords="73,52,12" href="04.html" target="janela">
-  </map>
-</div>
-<hr class="text-info">
-  <footer>
-  <div class="container text-center">
-    <div class="m-auto d-inline p-3" style="width: 50px;">
-   <a href="https://www.facebook.com/bodsonbr" target="_blank"><i class="bi bi-facebook" style="font-size: 50px; color: blue;"></i></a>
-  <a href="https://www.instagram.com/daniielrochamec/" target="_blank"><i class="bi bi-instagram" style="font-size: 50px; color: red;"></i></a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr class="text-info">
+  <div class="container-fluid text-center">
+    <p>
+    <h1 class="card-title  fw-bold text-info text-center">Raio-X no Google Glass</h1>
+    </p>
   </div>
-  </div>
-  </footer>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-</script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col">
+        <h4 class="card-title  fw-bold text-info text-center">
+          Clique nas partes destacadas
+        </h4>
+        <img src="_imagens/glass-esquema-marcado.jpg" usemap="#mapa">
+        <map name="mapa">
+          <area shape="rect" coords="179,202,270,260" href="info.html#sensores" target="janela">
+          <area shape="circle" coords="158,243,12" href="info.html#camera" target="janela">
+          <area shape="poly" coords="28,143,83,216,84,249,27,169" href="info.html#tela" target="janela">
+          <area shape="circle" coords="73,52,12" href="info.html#bateria" target="janela">
+        </map>
+      </div>
+      <br>
+      <br>
+      <div class="col">
+        <div class="ratio ratio-4x3">
+          <iframe src="info.html" title="Informações" name="janela"></iframe>
+        </div>
+      </div>
+      <hr class="text-info ">
+      <!--rodapé-->
+      <footer>
+        <div class="container-fluid justify-content-xcenter">
+          <div class="row justify-content-xcenter">
+            <div class="col justify-content-xcenter">
+              <a href="https://www.facebook.com/bodsonbr" target="_blank"><i class="bi bi-facebook"
+                  style="font-size: 50px; color: blue;"></i></a>
+              <p>Facebook</p>
+            </div>
+
+            <div class="col justify-content-end">
+              <a href="https://www.instagram.com/daniielrochamec/" target="_blank"><i class="bi bi-instagram"
+                  style="font-size: 50px; color: red;"></i></a>
+              <p>Instagram</p>
+            </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
 </body>
+
 </html>
